@@ -1,0 +1,7 @@
+
+CREATE TABLE IF NOT EXISTS games (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  humanChar CHAR NOT NULL,
+  board CHAR(9) NOT NULL
+);
+
